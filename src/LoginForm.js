@@ -16,8 +16,16 @@ function LoginForm() {
       </div>
       <div className=' mb-2'>
         <label htmlFor='password' className='form-label'>Password</label>
-        <input type='password' className='form-control' placeholder='Password'  required></input>
-        <FaLock className='icon'/>
+    <input 
+      type='password' 
+      id='password' 
+      className='form-control pr-10' 
+      placeholder='Password' 
+      required 
+      minLength={8} 
+      maxLength={12} 
+    />
+    <FaLock className='icon'/>
       </div>
       <div className=' mb-4'>
         <label><input type="checkbox"/>Remember me</label>
@@ -35,4 +43,4 @@ function LoginForm() {
   )
 }
 
-export default LoginForm
+export default LoginForm;
