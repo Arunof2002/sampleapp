@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { FaUser, FaLock  } from "react-icons/fa";
 function LoginForm() {
   return (
-    <div className='wrapper bg-dark d-flex align-items-center justify-content-center w-100'>
+    <div className='wrapper'>
     <div className='login'>
       <h2 className='mb-3'>Login Form</h2>
       <form className='needs-validation'>
